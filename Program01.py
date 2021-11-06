@@ -5,6 +5,7 @@ def getuserInput ():
     return name_F, age_F, add_F
 
 def display(nameFunc, ageFunc, addFunc):
-    print(f"Hi, my name is {nameFunc}. I {ageFunc} years old and I live in {addFunc}.")
+    print(f"Hi, my name is {nameFunc}. I am {ageFunc} years old and I live in {addFunc}.")
 
-name, age, add = getuserInput
+name, age, add = getuserInput()
+display(name, age, add)
