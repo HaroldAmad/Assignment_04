@@ -7,5 +7,5 @@ def getuserInput ():
 def display(totalpriceFunc):
     print(f"The total amount is {totalpriceFunc}")
 
-
-apple, orange, total = getuserInput()
+appleF, orangeF, totalpriceF = getuserInput()
+display(totalpriceF)
